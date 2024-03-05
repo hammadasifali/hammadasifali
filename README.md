@@ -1,35 +1,90 @@
-# Welcome to My Profile!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
 
-## Introduction
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
 
-Hello and welcome! I'm thrilled to have you here. This README file serves as a guide to navigate through my profile and get to know a little more about me and my work.
+main {
+    padding: 20px;
+}
 
-## About Me
+h1, h2 {
+    color: #333;
+}
 
-I'm a passionate individual with a deep love for creativity and innovation. Whether it's writing, coding, or crafting art, I always strive to bring a unique perspective to everything I do. I believe in the power of continuous learning and self-improvement, and I'm constantly seeking new challenges to broaden my horizons.
+section {
+    margin-bottom: 30px;
+}
 
-## What You'll Find Here
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-### Projects
-Explore the various projects I've worked on, ranging from coding experiments to creative writing pieces. Each project is a labor of love, reflecting my dedication to craftsmanship and attention to detail.
+li {
+    margin-bottom: 10px;
+}
 
-### Writing
-Delve into my writings, where I share my thoughts on a wide range of topics, from technology and science to philosophy and literature. Whether it's a short story, an essay, or a thought-provoking blog post, I hope my words resonate with you and spark meaningful conversations.
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
 
-### Code
-Browse through my code repositories, where I showcase my programming skills and share useful tools and libraries. From web development to machine learning, I'm always eager to explore new technologies and contribute to the open-source community.
-
-### Art
-Experience my artistic side through illustrations, digital art, and photography. Art is my way of expressing emotions and ideas that transcend words, and I hope you find inspiration and joy in my creations.
-
-## Get in Touch
-
-I love connecting with fellow creatives, collaborators, and enthusiasts! Whether you have feedback on my work, want to discuss a project idea, or just fancy a chat, feel free to reach out to me. You can find my contact information in the sidebar or drop me a message through my preferred communication channels.
-
-## Conclusion
-
-Thank you for taking the time to explore my profile! I hope you find something that resonates with you and leaves you inspired. Remember to keep exploring, creating, and dreaming big. Together, let's make the world a more vibrant and beautiful place!
-
-Happy browsing!
-
-Hammad Asif
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Profile!</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Hey there, wanderer of the digital realm! Welcome to my sanctuary of creativity and code. Here, amidst the endless bytes and pixels, I invite you to embark on a journey of exploration and inspiration. This README isn't just a guide—it's a portal into my world, where imagination knows no bounds.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am an intrepid explorer of the digital frontier, armed with a quiver full of programming languages and a heart brimming with curiosity. Currently pursuing a Bachelor's in Computer Science, I find solace in the elegant dance of code and the endless possibilities it offers. From the depths of C++ to the soaring heights of Flutter, I revel in the challenge of mastering each language and bending them to my will.</p>
+        </section>
+        <section id="what-youll-find">
+            <h2>What You'll Find Here</h2>
+            <ul>
+                <li><strong>Projects:</strong> Step into my workshop, where ideas take shape and dreams become reality.</li>
+                <li><strong>Writing:</strong> Words are my paintbrush, and the canvas of the page is my playground.</li>
+                <li><strong>Code:</strong> In the labyrinth of code repositories, I wield my keyboard like a sword.</li>
+                <li><strong>Art:</strong> Beyond the realm of code lies a realm of color and form, where imagination knows no bounds.</li>
+            </ul>
+        </section>
+        <section id="get-in-touch">
+            <h2>Get in Touch</h2>
+            <p>The digital landscape is vast and ever-changing, but fear not—I'm always just a click away.</p>
+        </section>
+        <section id="contribution-table">
+            <h2>Contribution Table Presentation</h2>
+            <p>Behold, the sacred tapestry of my contributions!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hammad Asif. All rights reserved.</p>
+    </footer>
+</body>
+</html>
